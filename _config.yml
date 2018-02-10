@@ -1,0 +1,27 @@
+title: Build2Learn
+description: "an initiative by a group of volunteers to help people learn programming by building useful micro-products. Our motto is – Build to Learn and Learn to Build."
+author: Build2Learn
+logo: /static/img/logo-adesivo.png
+github: https://github.com/b2l-chennai
+about: Build2Learn Chennai
+
+baseurl: ""
+url: "https://build2learn.in"
+
+allowsearch: true
+
+# disqus_shortname:
+google_analytics:
+
+share:
+  twitter_username: \
+  fb_appid: 000000000000
+
+
+enableTags: true
+tagarray: []
+paginate: 20
+per_page: 20
+paginate_path: "/blog/page:num/"
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist, jekyll-redirect-from]

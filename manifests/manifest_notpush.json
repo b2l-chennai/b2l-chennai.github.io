@@ -1,0 +1,8 @@
+{
+  "name": "",
+  "short_name": "",
+  "start_url": "/",
+  "display": "standalone",
+  "gcm_sender_id": "",
+  "DO_NOT_CHANGE_GCM_SENDER_ID": "Do not change the GCM Sender ID"
+}

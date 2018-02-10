@@ -1,0 +1,23 @@
+[
+  {
+    "text": "About",
+    "url": "/",
+    "icon": "fa-home"
+  },
+  {
+    "text": "Blog",
+    "url": "/blog/",
+    "icon": "fa-comments",
+    "layout": "post"
+  },
+  {
+    "text": "Projects",
+    "url": "/projects",
+    "icon": "fa-desktop"
+  },
+  {
+    "text": "Github",
+    "url": "https://github.com/b2l-chennai/",
+    "icon": "fa-github"
+  }
+]

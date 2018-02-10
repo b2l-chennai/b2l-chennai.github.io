@@ -1,0 +1,19 @@
+{
+  "version": "1.0.0",
+  "name": "Build2Learn Chennai",
+  "launch_path": "/",
+  "description": "",
+  "icons": {
+    "1024": "/imgs/1024x1024.png"
+  },
+  "developer": {
+    "name": "Build2Learn Chennai",
+    "url": "https://b2l-chennai.github.io"
+  },
+  "installs_allowed_from": [
+    "*"
+  ],
+  "default_locale": "en",
+  "permissions": {
+  }
+}
