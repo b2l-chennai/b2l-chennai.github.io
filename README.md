@@ -1,6 +1,8 @@
 # Build2 Learn Chennai website 🌎
 
  [![License](https://img.shields.io/badge/license-MIT%20License-brightgreen.svg)](https://opensource.org/licenses/MIT) [WhatsApp](https://chat.whatsapp.com/6lSVfYjlnbmFWOde8dsRsi)
+ 
+ Join the Build2Learn Github Group - https://b2l-chennai.herokuapp.com/
 
 
 * Build2learn Chennai's public website
