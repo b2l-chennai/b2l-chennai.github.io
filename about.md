@@ -25,7 +25,7 @@ Filler text to be filled in later
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3">
-            <img src="/b2l-chennai.github.io/static/img/balloon_1.png">
+            <img src="/static/img/balloon_1.png">
         </div>
         <div class="col-sm-9">
             <h4><strong>Meetup</strong></h4>
@@ -35,7 +35,7 @@ Filler text to be filled in later
     </div>
     <div class="row">
         <div class="col-sm-3">
-            <img src="/b2l-chennai.github.io/static/img/balloon_2.png">
+            <img src="/static/img/balloon_2.png">
         </div>
         <div class="col-sm-9">
             <h4><strong>Open Source</strong></h4>
