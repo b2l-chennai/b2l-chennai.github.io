@@ -9,7 +9,7 @@ var urlsToCache = [
     '/blog/',
     '/manifests/manifest_webapp.json',
     '/manifests/manifest_notpush.json',
-    '/static/img/header.jpg',
+    '/static/img/header-home.jpg',
     '/static/img/balloon_1.png',
     '/static/img/balloon_2.png',
     '/static/img/balloon_3.png',
