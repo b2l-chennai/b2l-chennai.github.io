@@ -51,11 +51,11 @@ Filler text to be filled in later
     <div class="row">
         <div class="col-sm-6 text-center center-block">
             <h4><strong>Join our WhatsApp Group</strong></h4>
-            <a href="https://chat.whatsapp.com/6lSVfYjlnbmFWOde8dsRsi"><img class="center-block" src="/static/img/whatsapp.png"></a>
+            <a href="https://chat.whatsapp.com/6lSVfYjlnbmFWOde8dsRsi"><img class="center-block" src="/static/img/whatsapp.png" style="width:230px;height:230px;"></a>
         </div>
         <div class="col-sm-6 text-center">
             <h4><strong>Join our facebook group</strong></h4>
-            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png"></a>
+            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png" style="width:270px;height:270px;"></a>
         </div>
     </div>
 </div>
