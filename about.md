@@ -55,7 +55,7 @@ Filler text to be filled in later
         </div>
         <div class="col-sm-6 text-center">
             <h4><strong>Join our facebook group</strong></h4>
-            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png" style="width:270px;height:270px;"></a>
+            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png" style="width:230px;height:230px;"></a>
         </div>
     </div>
 </div>
