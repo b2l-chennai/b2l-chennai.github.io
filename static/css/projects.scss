@@ -28,12 +28,13 @@ $text_size: 13px;
  */
 .project-item.not-show{ display: none; }
 
-.project-item.col-md-4.col-sm-6.col-xs-12{height:430px}
+.project-item.col-md-4.col-sm-6.col-xs-12{height:350px}
 
 .project-outer {
-
+    box-shadow: 0 2px 20px 0 rgba(0,0,0,0.10);
     vertical-align: top;
-    height:400px;
+    min-height:300px;
+    height: 100%;
   
     .project-headlines {
          /** Overflow con ellipsis oltre la terza riga */
@@ -52,30 +53,23 @@ $text_size: 13px;
 
     }
 
+    .project-inner {padding: 10px;}
     .project-inner > a { display: block; }
 
     .project-img {
         height: 200px;
         display: block;
-        @include bg( cover );
+        @include bg( contain );
     }
 
     span.tags {
-
-        @include borderbtm( #888 );
-        @include margins(0 5px);
-        font-size: ($heading_size / 2);
-
+        font-size: ($text_size);
+        border-radius: 3px;
         &:first-child, &:last-child { margin-left: 0; }
     }
 
     .project-footer {
-
-        clear: both;
-        display: inline-block;
-        width: 80%;
-        position:absolute;
-        bottom:40px;
+        margin-top: 20px;
 
         .project-link {
             display: inline-block;
@@ -84,14 +78,9 @@ $text_size: 13px;
         }
 
         .project-timeline {
-
-            display: inline-block;
             float: right;
             font-size: $text_size;
             font-style: italic;
-            vertical-align: middle;
-            position:absolute;
-            right:15px;
             @include margins(10px 0);
             @include pad(5px 0);
         }
@@ -106,13 +95,15 @@ $text_size: 13px;
  */
 
 .tag-group{
-    @include margins(0 0 25px 0);
+    @include margins(10px 0 25px 0);
 
     .tag-cloud {
         @include margins(0 2px);
         @include curhand;
-
-        .active { background: #ccc; }
+        font-size: $text_size;
+        padding: 5px;
+        border-radius: 3px;
+        .active { background: #d3d3d3; }
     }
 }
 

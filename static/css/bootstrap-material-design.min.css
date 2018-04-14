@@ -1,7 +1,27 @@
 
-html, body {
+html, body, .container {
     height: 100%;
 }
+
+.container {
+  display: table;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.row {
+  height: 100%;
+  display: table-row;
+}
+
+.row .no-float {
+  display: table-cell;
+}
+
+.row .block {
+  display: block;
+}
+
 body {
   background-color: #fff;
 }
@@ -1310,10 +1330,19 @@ output {
   min-height: 30px;
 }
 @media (min-width: 768px) {
+
   .form-horizontal .control-label {
     padding-top: 8px;
   }
 }
+
+@media (min-width: 962px) {
+  .row .no-float{
+    display: table-cell !important;
+    float: none;
+  }
+}
+
 @media (min-width: 768px) {
   .form-horizontal .form-group-lg .control-label {
     padding-top: 12.9999997px;
@@ -1961,6 +1990,7 @@ legend {
   color: inherit;
 }
 @media (max-width: 767px) {
+
   .navbar .navbar-nav .navbar-text {
     color: inherit;
     margin-top: 15px;

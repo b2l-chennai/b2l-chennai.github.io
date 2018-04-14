@@ -1,9 +1,81 @@
 /* Home page header style */
+.header-panel {
+  background-color: #007eff !important;
+  width: 100%;
+}
+
 .header-big-text {
   color: white;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 265px;
+  padding-bottom: 85px;
 }
+
+.header-big-text .header-title { 
+  font-size: 45px;
+}
+
+.header-home {
+  height: 75%;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/static/img/header-home.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.header-blog {
+  height: 40%;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/static/img/header-blog.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.header-projects {
+  height: 40%;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    ),
+    url(/static/img/header-collab.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.header-default {
+  height: 40%;
+  background: linear-gradient(220deg , rgba(0, 255, 220, 0.5) 0%,  rgb(5, 129, 255) 100%), url(/static/img/header-default.png);
+  -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.tp-header {
+  padding-top: 200px;
+}
+
+/*--- FORK ME ON GITHUB ----*/
 .github-corner:hover .octo-arm {
   animation: octocat-wave 560ms ease-in-out;
 }
@@ -23,62 +95,6 @@
   }
 }
 
-@media (max-width: 500px) {
-  .github-corner:hover .octo-arm {
-    animation: none;
-  }
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out;
-  }
-
-  .fill-height {
-    height: auto !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .header-panel.header-home {
-    height: 100%;
-  }
-  #portfolio-filter {
-    margin-top: 0px;
-  }
-  .fill-height {
-    height: auto !important;
-  }
-}
-
-@media (min-width: 922px) {
-  .navbar-collapse.collapse {
-    height: 100% !important;
-  }
-}
-
-.header-home {
-  height: 80%;
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    url(/static/img/header-home.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
-
-.header-blog {
-  height: 80%;
-  background: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.5) 100%
-    ),
-    url(/static/img/blog-bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-}
 
 input::-webkit-input-placeholder {
   color: #ffffff !important;
@@ -98,11 +114,19 @@ input:-ms-input-placeholder {
   color: #ffffff !important;
   font-style: italic;
 }
+
 /* Bootstrap custom css */
 .vertical-align {
   display: flex;
   align-items: center;
 }
+
+.well {
+  padding: 30px;
+  margin: 0px;
+  box-shadow: none;
+}
+
 /* Default style */
 .main.outer {
   padding: 0px;
@@ -110,14 +134,11 @@ input:-ms-input-placeholder {
   height: 100%;
 }
 
-.header-panel {
-  background-color: #007eff;
-  width: 100%;
-}
-
 .full {
   font-size: 16px;
+  padding-top: 5px;
 }
+
 .logo-img {
   /*width: 56px;
     height: 56px;
@@ -160,6 +181,8 @@ p.info a {
   display: block;
   max-width: 100%;
   height: auto;
+  max-height: 200px;
+  margin-bottom: 15px;
 }
 .social-icons {
   margin: 30px;
@@ -184,7 +207,6 @@ p.info a {
 }
 .menu ul li {
   list-style: none;
-  padding: 5px 0;
 }
 
 .sidebar-item {
@@ -194,17 +216,17 @@ p.info a {
 .menu ul li a:hover,
 .menu ul li a:focus,
 li.current-menu-item > a {
-  background: #0374e8;
+  background: #0769ce75;
 }
+
 li.current-menu-item:before {
   content: "";
   display: inline-block;
   height: 56px;
   width: 5px;
   position: absolute;
-  left: 9px;
   vertical-align: middle;
-  background: #bbdefb;
+  background: #ffffff;
 }
 .menu ul li a {
   font-size: 15px;
@@ -300,17 +322,13 @@ span.tags {
 }
 
 footer {
-  border-top: 1px solid #c5c0c0;
-  width: 100%;
-  height: 10px;
-  margin-top: 10px;
-  margin-bottom: 3em;
-  padding-top: 10px;
+  padding: 10px;
   color: #444444;
   font-size: 11px;
   bottom: 0;
-  padding-bottom: 10px;
+  text-align: center;
 }
+
 .pager li.active a {
   background: rgba(89, 148, 129, 0.3);
 }
@@ -363,9 +381,7 @@ footer {
   right: 12px;
 }
 
-.post-content {
-  display: inline-block;
-}
+/* --- UTIL ---- */
 
 .fill-parent {
   min-height: 100%;
@@ -382,6 +398,11 @@ footer {
 .fill-height {
   height: 100%;
 }
+
+.fill-width {
+  width: 100%;
+}
+
 .no-margin {
   margin: 0 !important;
 }
@@ -395,11 +416,73 @@ footer {
   border: none !important;
 }
 
-#headerBottom {
-  padding-top: 300px;
+
+.site-footer {
+  background: #f3f3f3;
 }
 
-.well {
-  padding: 30px;
-  margin: 0px;
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+
+.join-us-title {
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+/* -------  MEDIA QUERIES ------ */
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+
+  .fill-height {
+    height: auto !important;
+  }
+
+  .fill-width {
+    width: auto !important;
+  }
+
+}
+
+@media (max-width: 768px) {
+  
+  .header-big-text {
+    padding-top: 100px;
+  }
+
+  .header-big-text .header-title {
+    font-size: 30px;
+  }
+
+  .social-icons {
+    margin: 0px !important;
+    padding: 10px 5px;
+  }
+
+  .tp-header {
+    padding-top: 0px;
+  }
+  
+  #portfolio-filter {
+    margin-top: 0px;
+  }
+  .fill-height {
+    height: auto !important;
+  }
+}
+
+@media (min-width: 922px) {
+  .navbar-collapse.collapse {
+    height: 100% !important;
+  }
 }

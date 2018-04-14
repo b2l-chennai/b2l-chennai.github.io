@@ -7,7 +7,7 @@
   {
     "text": "Blog",
     "url": "/blog/",
-    "icon": "fa-comments",
+    "icon": "fa-rss",
     "layout": "post"
   },
   {

@@ -6,11 +6,11 @@ layout: default
   <div class="post-content">
     {{ content }}
 
-    <div class="projects row">
+    <div class="projects row block">
     {% include project_tags.html %}
     {% for i in site.data.projects %}
     <div class="project-item col-md-4 col-sm-6 col-xs-12" data-tags='{{ i.tags | jsonify | downcase }}'>
-    	<div class="well project-outer">
+    	<div class="well project-outer no-padding">
     		<div class="project-inner">
     			<a href="/static/img/projects/{{ i.image }}" class="thickbox">
     			<div class="project-img bordered" style="background-image: url('/static/img/projects/{{ i.image }}');"></div>

@@ -1,4 +1,4 @@
-<ul class="list-separator nav navbar-nav well well-primary {{ page.layout }} no-padding no-border fill-height">
+<ul class="list-separator nav navbar-nav well well-primary {{ page.layout }} no-padding no-border fill-height fill-width">
 	{% for i in site.data.urls %} {% assign current = nil %} {% assign pageurl = page.url | split:'/' | last %} {% assign menuurl
 	= i.url | split:'/' | last %} {% assign linkurl = nil %} {% if i.url contains '://' %} {% assign linkurl = i.url %} {% else
 	%} {% assign linkurl = i.url | prepend: site.baseurl %} {% endif %} {% assign target = i.target %} {% unless target %} {%
