@@ -13,6 +13,7 @@
      + [Windows](#windows)
      + [Docker](#docker)
   + [Writing a post](#writing-a-post-)
+  + [Adding a project](#adding-a-project-)
   + [Updating the feedback form shortlink](#updating-the-feedback-form-shortlink-️)
   + [Website Structure](#website-structure-)
   + [Contributing](#contributing-)
@@ -177,6 +178,19 @@ categories: <LIST OF SPACE SEPARATED CATEGORIES>
 
 <BODY OF YOUR BLOGPOST>
 ```
+
+## Adding a project 📝
+
+To add a new project go to - ['projects.json'](https://github.com/b2l-chennai/b2l-chennai.github.io/blob/master/_data/projects.json) and add the following to the json file before making a pull request
+
+`{
+		"name": "Name of your project",
+		"image": "Upload the photo imgur.com and get a direct link",
+		"url": "Your github project url",
+		"date": "December 18 2017",
+		"tags": ["HTML, CSS, JavaScript"]
+	}
+`
 
 
 ## Website Structure 🗺
