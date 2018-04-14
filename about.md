@@ -6,7 +6,6 @@ permalink: /
 
 # What is Build2Learn?
 
-
 **Build to Learn** is an initiative by a group of volunteers to help people learn programming by building useful micro-products. Our motto is – Build to Learn and Learn to Build.
 
 Anyone who wants to learn or build or do both can participate. We plan to meet a few times a week in 3-4 hour coding sessions and build useful products.
@@ -17,45 +16,41 @@ We had the first session on the 3rd of February and 10 of us were present. We st
 
 More things coming soon stay tuned! 😎
 
-
 ### What we do?
 
-Filler text to be filled in later
+We work on interesting projects that people pitch during our B2L Meetup sessions. Interested folks come together as a team to build great things, sharing their ideas and to collaborate on really cool stuff!
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-3">
+<div class="container-fluid margin-top-20 no-padding">
+    <div class="row block margin-bottom-20">
+        <div class="col-sm-2">
             <img src="/static/img/balloon_1.png">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10">
             <h4><strong>Meetup</strong></h4>
-            <p>We have 2 meetups every month.
-                The meetups are held at krea.in or at Orangescape Chennai.</p>
+            <p>We have meetups every month. The meetups are usually held at krea.in, Orangescape or at Paypal, Chennai. Feel free to reach out to us if you are willing to host the next meetup at your workplace as well 😄 </p>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-3">
+    <div class="row block margin-bottom-20">
+        <div class="col-sm-2">
             <img src="/static/img/balloon_2.png">
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10">
             <h4><strong>Open Source</strong></h4>
             <p>We encourage open source. Most of the projects we work on will be put up on github so that other people from the community can contribute to it.
             </p>
         </div>
     </div>
-    </div>
+</div>
 
-# Join us!
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-6 text-center center-block">
-            <h4><strong>Join our WhatsApp Group</strong></h4>
-            <a href="https://chat.whatsapp.com/6lSVfYjlnbmFWOde8dsRsi"><img class="center-block" src="/static/img/whatsapp.png" style="width:200px;height:200px;"></a>
+<div class="container-fluid no-padding">
+    <div class="row block">
+        <div class="col-sm-4 text-center">
+            <h4 class="join-us-title">Join our WhatsApp Group</h4>
+            <a href="https://chat.whatsapp.com/6lSVfYjlnbmFWOde8dsRsi"><img class="center-block" src="/static/img/whatsapp.png" style="width:100px;"></a>
         </div>
-        <div class="col-sm-6 text-center">
-            <h4><strong>Join our facebook group</strong></h4>
-            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png" style="width:200px;height:200px;"></a>
+        <div class="col-sm-4 text-center">
+            <h4 class="join-us-title">Join our Facebook Group</h4>
+            <a href="https://www.facebook.com/groups/1857417830966437/"><img class="center-block" src="/static/img/facebook.png" style="width:100px;"></a>
         </div>
     </div>
 </div>

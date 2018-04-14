@@ -9,11 +9,12 @@ var urlsToCache = [
     '/blog/',
     '/manifests/manifest_webapp.json',
     '/manifests/manifest_notpush.json',
-    '/static/img/header.jpg',
+    '/static/img/header-home.jpg',
+    '/static/img/header-blog.jpg',
+    '/static/img/header-collab.jpg'
+    '/static/img/header-default.png'
     '/static/img/balloon_1.png',
     '/static/img/balloon_2.png',
-    '/static/img/balloon_3.png',
-    '/static/img/balloon_4.png',
     '/static/img/logo.png',
     '/static/css/main.css',
     '/static/css/bootstrap-material-design.min.css',

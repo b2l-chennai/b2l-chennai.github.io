@@ -1,10 +1,10 @@
 [
 	{
-		"name": "Random Project",
-		"image": "b2l-250t.png",
-		"url": "/events/2017/12/08/post",
+		"name": "Build2Learn.in",
+		"image": "b2l-logo-450t.png",
+		"url": "https://github.com/b2l-chennai/b2l-chennai.github.io",
 		"date": "December 18 2017",
-		"tags": ["JavaScript"]
+		"tags": ["HTML, CSS, JavaScript"]
 	}
 
 ]
