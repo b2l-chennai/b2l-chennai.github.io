@@ -42,7 +42,7 @@ We work on interesting projects that people pitch during our B2L Meetup sessions
     </div>
 </div>
 
-<div class="container-fluid no-padding">
+<div class="container-fluid no-padding" id="join_us">
     <div class="row block">
         <div class="col-sm-4 text-center">
             <h4 class="join-us-title">Join our WhatsApp Group</h4>
