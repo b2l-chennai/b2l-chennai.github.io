@@ -1,7 +1,7 @@
 ---
 layout: null
 ---
-
+// urls to cache. 
 var cacheName = 'build2learn-cache-v2.0';
 var urlsToCache = [
     '/',
